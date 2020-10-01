@@ -1,0 +1,31 @@
+.Pokedex {
+    background-color: #828284;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-auto-rows: min-content;
+    padding: 2rem;
+    justify-items: center;
+    justify-content: center;
+    grid-gap: 1rem;
+    align-self: center;
+}
+
+.Pokedex-header {
+    grid-column: 1 / -1;
+    font-family: Bangers;
+    font-size: 2.5rem;
+    transition: .3s
+}
+
+.Pokedex-header:hover {
+    transform: skewX(-10deg) scale(1.05);
+}
+
+.Pokedex-header--winner {
+    color: rgb(226, 172, 37);
+}
+
+.Pokedex-header-loser {
+    color: rgb(43, 43, 43);
+}

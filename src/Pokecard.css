@@ -1,0 +1,45 @@
+.Pokecard {
+    background-color: #d8d8d8;
+    font-family: Bangers;
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem;
+    transition: .2s;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem .5rem #444;
+}
+
+.Pokecard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.5rem 1rem #000;
+}
+
+.Pokedex:hover .Pokecard:not(:hover) {
+    transform: scale(0.97);
+    box-shadow: 0 0.1rem .3rem #555;
+}
+
+.Pokecard-experience {
+    margin: 0.5rem 0;
+    font-size: 1.7rem;
+}
+
+.Pokecard-img {
+    width: 10rem;
+}
+
+.Pokecard-experience:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.Pokecard-experience__red:hover {
+    transform: scale(1.1);
+    transition: .2s;
+    color: red;
+}
+
+.Pokecard-experience__blue:hover {
+    transform: scale(1.1);
+    transition: .2s;
+    color: rgb(0, 110, 255);
+}
